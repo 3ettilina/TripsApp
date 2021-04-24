@@ -18,11 +18,6 @@ class Description extends StatelessWidget {
       ],
     );
 
-    final placeContainer = Container(
-      margin: EdgeInsets.only(top: 120.0),
-      child: placeContents,
-    );
-
-    return placeContainer;
+    return placeContents;
   }
 }

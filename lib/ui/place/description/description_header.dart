@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:trips_app/ui/common/stars_rating.dart';
 
+/// Returns the header of a description which contains [title] and [rating]
 class DescriptionHeader extends StatelessWidget {
   String title;
   double rating;
