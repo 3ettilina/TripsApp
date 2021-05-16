@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:trips_app/ui/common/stars_rating.dart';
+import 'package:trips_app/components/stars_rating.dart';
 
 class ReviewInfo extends StatelessWidget {
   String userName;
@@ -14,13 +14,14 @@ class ReviewInfo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Expanded(
+        child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         nameW(userName),
         Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             detailsW(reviews, photos),
             StarsRating(currentReview, 12.5)
@@ -28,7 +29,7 @@ class ReviewInfo extends StatelessWidget {
         ),
         commentW(comment)
       ],
-    );
+    ));
   }
 }
 

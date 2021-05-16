@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ui/place/header/header_app_bar.dart';
-import 'package:trips_app/ui/place/place.dart';
+import 'package:trips_app/trips_pages.dart';
 
 void main() => runApp(TripsApp());
 
@@ -15,10 +14,7 @@ class TripsApp extends StatelessWidget {
         ErrorWidget.builder = (FlutterErrorDetails errorDetails) => error;
         return widget;
       },
-      home: Scaffold(
-          body: Stack(
-        children: [Place(), HeaderAppBar()],
-      )),
+      home: TripsPages(),
     );
   }
 }

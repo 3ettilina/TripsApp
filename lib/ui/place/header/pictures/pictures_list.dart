@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'picture.dart';
+import '../../../../components/picture.dart';
 
 class PicturesList extends StatelessWidget {
   @override

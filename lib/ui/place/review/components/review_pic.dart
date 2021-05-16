@@ -14,7 +14,7 @@ class ReviewPic extends StatelessWidget {
         backgroundImage: NetworkImage(
           picturePath,
         ),
-        radius: 25.0,
+        radius: 35.0,
       ),
     );
   }

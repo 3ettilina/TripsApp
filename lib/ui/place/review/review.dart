@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trips_app/ui/place/review/review_info.dart';
-import 'package:trips_app/ui/place/review/review_pic.dart';
+import 'package:trips_app/ui/place/review/components/review_info.dart';
+import 'package:trips_app/ui/place/review/components/review_pic.dart';
 
 class Review extends StatelessWidget {
   String picturePath;

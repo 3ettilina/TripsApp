@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trips_app/components/fav_button.dart';
 
 class Picture extends StatelessWidget {
   String url;
@@ -24,6 +25,9 @@ class Picture extends StatelessWidget {
           ]),
     );
 
-    return pic;
+    return Stack(
+      alignment: Alignment(0.9, 1.15),
+      children: [pic, FavButton()],
+    );
   }
 }

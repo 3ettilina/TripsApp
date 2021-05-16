@@ -19,6 +19,7 @@ This app is under development.
 Screenshots will be added on each big update, showing the corresponding current status.
 
 ![Place Description | Screen](assets/screens/trips_app_latest.png)
+![Place Description | Screen](assets/screens/trips_app_latest_2.png)
 
 ## Expected final status
 The following image shows the design base of this project. This is the objective I'm aiming to achieve when completing the course. 
