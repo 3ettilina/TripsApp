@@ -18,7 +18,7 @@ No specific Android/iOS code was touched.
 This app is under development. 
 Screenshots will be added on each big update, showing the corresponding current status.
 
-![Place Description | Screen](assets/screens/trips_app_latest.png)
+![Place Description | Screen](assets/screens/trips_app_latest_1.png)
 ![Place Description | Screen](assets/screens/trips_app_latest_2.png)
 
 ## Expected final status
